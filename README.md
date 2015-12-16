@@ -14,9 +14,13 @@ Install
 ====
 ```
 % python setup.py install
+
+or via pip
+
+% pip install django_mljson
 ```
 
-Run
+Use
 ====
 In the django project, add the following settings to settings.py
 ```
