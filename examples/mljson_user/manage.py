@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import os
 import sys
-path = os.path.abspath(os.path.join(__file__, '../../../'))
-sys.path.insert(0, path)
+#path = os.path.abspath(os.path.join(__file__, '../../../'))
+#sys.path.insert(0, path)
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mljson_user.settings")

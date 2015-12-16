@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_mljson',
     'staff'
 ]
 
@@ -123,5 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 SERIALIZATION_MODULES = {
-    'mljson': 'django_mljson.serializers.mljson'
+    'mljson': 'django_mljson.serializer'
 }
